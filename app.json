@@ -1,0 +1,37 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/photo/photo",
+        "pages/text/text"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "red",
+        "navigationBarTextStyle": "#fff",
+        "navigationBarTitleText": "轻松一下"
+    },
+    "tabBar": {
+        "color": "red",
+        "selectedColor": "black",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text":     "搞笑动态图",
+                "iconPath": "public/icon_1.png",
+                "selectedIconPath": "public/icon_1_on.png"
+            },
+            {
+                "pagePath": "pages/photo/photo",
+                "text":     "搞笑图片",
+                "iconPath": "public/icon_2.png",
+                "selectedIconPath": "public/icon_2_on.png"
+            },
+            {
+                "pagePath": "pages/text/text",
+                "text":     "搞笑段子",
+                "iconPath": "public/icon_3.png",
+                "selectedIconPath": "public/icon_3_on.png"
+            }
+        ]
+    }
+}

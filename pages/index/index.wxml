@@ -1,0 +1,6 @@
+<scroll-view scroll-y="true" style="height: {{windowHeight}}px;" bindscroll="scroll" bindscrolltolower="pullUpload">
+    <view class="m-gif" wx:for="{{gifList}}" wx:key="id">
+        <text class="text">{{item.title}}</text>
+        <image class="img" src="{{item.isD ? item.img : 'http://www.zbjuran.com/uploads/allimg/161222/10-16122215035G03.gif'}}"></image>
+    </view>
+</scroll-view>

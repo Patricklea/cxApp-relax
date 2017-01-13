@@ -1,0 +1,18 @@
+.m-gif {
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+.img {
+    display: block;
+    width: 100%;
+}
+.text {
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
